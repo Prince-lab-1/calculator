@@ -1,0 +1,131 @@
+*{
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+      background-color: black;
+}
+#container{
+      position: absolute;
+      background: linear-gradient(135deg,#5b548a,#00feba,#5b548a );
+      width: 70vh;
+      height: 90vh;
+      left: 68vh;
+      top: 5vh;
+      border-radius: 30px;
+      
+}
+#search input{
+      position: relative;
+      padding: 2.5vh;
+      background-color: whitesmoke;
+      outline: none;
+      border: none;
+      font-size: 3vh;
+      text-transform: capitalize;
+      top: 10vh;
+      left: 2vh;
+      border-radius: 30px;
+      width: 45vh;
+      
+}
+#search button{
+      position: relative;
+      padding: 3vh;
+      font-size: 3vh;
+      left: 3vh;
+      top: 10vh;
+      border-radius: 30px;
+      border: none;
+      outline: none;
+      color: rgb(79, 83, 83);
+      cursor: pointer;
+
+}
+.weathericons img{
+      position: relative;
+      background-color: red;
+      height: 15vh;
+      width: 15vh;
+      top: 12vh;
+      left: 25vh;
+      border-radius: 10px;
+}
+.weathericons h1{
+      position: relative;
+      height: 20vh;
+      width: 20vh;
+      top: 15vh;
+      left: 26.5vh;
+      color: white;
+      font-size: 7vh;
+}
+
+#Cityname{
+      position: relative;
+      color: white;
+      top: 3vh;
+      text-align: center;
+      font-size: 8vh;
+            
+}
+
+.weatherinfo{
+      position: relative;
+      width: 70vh;
+      height: 30vh;
+      top: 6vh;
+      color: white;
+
+}
+.weatherinfo i{
+      position: relative;
+      top: 4vh;
+      font-size: 9vh;
+      left: 2vh;
+}
+
+.Winds{
+      position: relative;
+      left: 13vh;
+      font-size: 3vh;
+}
+
+.weatherinfo h3{
+      position: relative;
+      font-size: 5vh;
+      top: 3.5vh;
+      left: 4vh;
+}
+.Humidity{
+      position: relative;
+      left: 40vh;
+      top: -20vh;
+}
+.Humidity p{
+      position: relative;
+      left: 10vh;
+      font-size: 4vh;
+      top: -1vh;
+}
+
+.Humidity h3{
+      position: relative;
+      top: 2vh;
+
+}
+
+#temp{
+      position: relative;
+      left: 28vh;
+}
+
+#cityname{
+      position: relative;
+      color: white;
+      left: 24vh;
+      top: 5vh;
+      font-size: 6vh;
+}

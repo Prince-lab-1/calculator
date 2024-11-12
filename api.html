@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>API</title>
+
+</head>
+<body>
+
+     
+      <script> 
+            var url1 = `https://opentdb.com/api.php?amount=10`;
+
+            var apikey = "f2605f6d8563023180ca1825555cfd00" ;
+
+            fetch(url1)
+            .then(Response => Response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error(error));
+      </script>
+</body>
+</html>

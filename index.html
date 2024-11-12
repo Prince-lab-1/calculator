@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Weather app</title>
+      <link rel="stylesheet" href="css/all.css">
+      <link rel="stylesheet" href="css/all.min.css">
+      <link rel="stylesheet" href="index.css">
+</head>
+<body>
+      <div id="container">
+            
+            <div id="search">
+                  <input type="text" placeholder="Search by City Name..." id="searchinput">
+                  <button id="searchbtn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="weathericons">
+                  <img src="pic.jpg" alt="weathericons"><br>
+                  <h1 id="temp">00</h1>
+
+                  <h2 id="cityname" style="position: relative;text-transform: capitalize; margin: auto; display: none;"></h2>
+
+                  <div class="weatherinfo">
+                        <span><i class="fas fa-wind"></i><p class="Winds">Windspeed</p></span>
+                        <br>
+
+                        <h3 id="Windspeed">00m/s</h3>
+
+                        <section class="Humidity"><i class="fas fa-tint"></i><p >Humidity</p>
+                        <br>
+                        <h3 id="Humidity">00%</h3>
+                        </section>
+
+                  </div>
+                  
+      
+                   
+
+
+            </div>
+
+      </div>
+        <p style=" position: relative;color: #5b548a  ; top: 95vh;"> &copy;Product Of Eyen Corporation</p>
+        <p style=" position: relative;color: #00feba; top: 90vh; "> &copy;Developed By Prince-The-Great</p>
+
+      <script src="index.js"></script>
+</body>
+</html>
